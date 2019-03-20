@@ -1,0 +1,52 @@
+body{
+  background-color :green;
+}
+.parent{
+  background-color :#29e032;
+    display :flex ;
+justify-content: space-around;
+   margin: 2%;
+   padding: 2%;
+}
+.child{
+  background-color: #e03229;
+
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px red;
+border-radius: 8%;
+}
+img{
+  width: 50%;
+  height: 50%;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  body{
+    background-color: #e0293b;
+  }
+  .parent{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .child{
+    width:80%;
+
+  }
+}
+@media only screen and (min-width:481px) and (max-width:760px)
+{
+  body{
+    background-color: black;
+  }
+  .parent{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .child{
+    width:30%;
+    }
+    }

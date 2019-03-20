@@ -1,0 +1,39 @@
+body{
+  background-color: red;
+}
+.parent{
+  background-color: pink;
+  display:flex;
+  justify-content: space-around;
+  margin:8%;
+  border-radius: 10%;
+  padding: 5%;
+}
+.left{
+  background-color:white;
+  border-radius: 2%;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px red;
+  margin:5%;
+  padding: 3%;
+  width:40%;
+
+}
+.right{
+  background-color: white;
+  border-radius: 2%;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px red;
+  margin:5%;
+  padding: 3%;
+  width:60%;
+}
+img{
+  width:50%;
+  height:30%;
+}
+table{
+  border:2px solid black
+}

@@ -1,0 +1,39 @@
+{
+ "basics":{
+    "img":"download.jpg",
+    "name":"pavani",
+    "roll":"537"
+
+  },
+  "career":{
+    "info":"i am interested"
+  },
+  "education":[
+    {
+    "sno":"1",
+    "degree":"btech",
+    "institute":"mits"
+  },
+  {
+  "sno":"2",
+  "degree":"inter",
+  "institute":"narayana"
+},
+{
+"sno":"3",
+"degree":"ssc",
+"institute":"aprs"
+}
+],
+"skills":[
+  {
+  "info":"c"
+},
+{
+"info":"c++"
+},
+{
+  "info":"python"
+}
+]
+}
